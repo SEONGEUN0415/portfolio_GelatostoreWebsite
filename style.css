@@ -1,0 +1,246 @@
+body{
+    margin:0;
+    font-family: 'Orbit', sans-serif;
+    color:#F4F9FF;
+    
+}
+h1{
+    font-size: medium;
+    text-align: center;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+button:hover{
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 32px;
+    background-color: #004DB6;
+    
+    
+}
+#nav button{
+    transition: all 300ms ease-in;
+    color: #F4F9FF;
+    
+}
+
+.nav__logo{
+    color:#F4F9FF;
+}
+.nav__logo:hover{
+    cursor: pointer;
+}
+.nav__category{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav__category button:hover{
+    transform: scale(1.1);
+}
+.nav__right{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-around;
+}
+.search, .bag{
+    font-size: 24px;
+} 
+#home{
+    display:flex;
+    justify-content: center;
+    background: url(img/wave-haikei.png)
+    center/cover no-repeat;
+    
+}
+.home__signature{
+    display:flex;
+    padding: 132px 0;
+}
+
+.signature__item__img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 24px;
+    transition: all 300ms ease-in;
+}
+
+.signature__item__img:hover{
+    transform: scale(1.05);
+    transform: translateY(-100px);
+    cursor: pointer;
+}
+
+#about{
+    background-color:#A9AABC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+}
+.about__logo__img{
+    width: 260px;
+    border-radius: 50%;
+    margin: 24px;
+}
+.about__logo__description{
+    display:flex;
+    align-items: center;
+    margin: 24px;
+}
+
+#product{
+    background-color: #454555;
+    padding-bottom: 100px;
+}
+
+.custom-shape-divider-top-1698320746 {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1698320746 svg {
+    position: relative;
+    display: block;
+    width: calc(101% + 1.3px);
+    height: 300px;
+}
+
+.custom-shape-divider-top-1698320746 .shape-fill {
+    fill: #A9AABC;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 40%;
+}
+
+.menu h1{
+    padding-bottom: 70px;
+    color:#F1F1E6;
+    font-size: 62px;
+    margin: 0px;
+}
+.menu__category{
+    margin-bottom: 20px;
+}
+.menu__category__normal{
+    display: flex;
+    width: 150PX;
+    height: 150PX;
+    margin: 18px;
+    color:#454555;
+    font-size: 40px;
+    background-color:#F1F1E6;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.menu__category__open{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 18px;
+    color: #454555;
+    background-color:#F1F1E6;
+    border-radius: 15px;
+    display: none;
+}
+
+.title{
+    margin:0;
+}
+
+.open__menu{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color:#454555;
+    font-size: large
+}
+
+.divider{
+    border: solid;
+    width: 92%;
+    margin: auto;
+}
+.menu__items{
+    display: flex;
+    display: none;
+    flex-basis: 80%;
+    flex-direction: column;
+    padding: 28px;
+}
+
+.product__item__name{
+    margin-bottom: 10px;
+}
+
+.custom-shape-divider-top-1698838079 {
+    width: 100%;
+    overflow: hidden;
+    background-color:#8E6F6F;
+
+}
+
+.custom-shape-divider-top-1698838079 svg {
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 250px;
+    
+}
+
+.custom-shape-divider-top-1698838079 .shape-fill {
+    fill: #454555;
+}
+
+#contact{
+    background-color: #8E6F6F;
+    color: #D19F9E;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-bottom: 100px;
+    
+}
+.contact__title{
+    font-size: 24px;
+}
+
+.contact__number{
+    margin: 32px;
+}
+.contact__links a{
+    text-decoration: none;
+}
+.contact__links i{
+    font-size: 32px;
+    color:#D19F9E;
+}
+
+.contact__links i:hover{
+    color:#E84D60
+}
